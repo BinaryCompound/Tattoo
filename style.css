@@ -1,7 +1,20 @@
 body {
   margin: 0;
-  background-image: url(4.JPG);
+}
+
+.image {
+  position: fixed;
+  z-index: -1;
+}
+
+.image-size {
   background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.image img {
+  filter: brightness(25%)
 }
 
 .header {
@@ -19,7 +32,7 @@ body {
   margin-right: auto;
   width: 15%;
   height: 15%;
-  
+
 }
 
 .titel {
@@ -28,6 +41,23 @@ body {
   text-align: center;
   color: white;
   margin-top: 5%;
+
+}
+
+.compact-text {
+  display: flex;
+  justify-content: center;
+  border: 2px
+  
+}
+.compact{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  border: 2px;
+  width: 60%;
+  color: white;
+  
 }
 
 .Ilya-photo {
@@ -50,6 +80,34 @@ body {
   width: auto;
 }
 
+.text-sketches{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  
+}
+.biography-left{
+  text-align: left;
+  padding-left: 10px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.63);
+  border: 3px solid rgba(0, 0, 0, 0.63);
+  border-radius: 8px;
+}
+.sketches{
+  /*width: 510px;
+  height: 683px;*/
+  width: 60%;
+  height: 60%;
+  border-radius: 8px;
+  transition: transform 2s;
+}
+.sketches:hover{
+  transform: scale(2);
+}
+
 .navigation-button {
   --time: 0.3s;
 
@@ -58,8 +116,10 @@ body {
   padding: 0.5rem 1rem;
 
   text-decoration: none;
+  font-weight: 100;
   font-size: 20px;
-  font-family: fantasy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
   background-color: rgba(255, 255, 255, 0.145);
   color: rgb(255, 255, 255);
