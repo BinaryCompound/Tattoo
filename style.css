@@ -174,7 +174,7 @@ img {
 .back-to-top{
   position: fixed;
   right: 10px;
-  bottom: 100px;
+  bottom: 50px;
   --time: 0.3s;
 
   border: 2px solid rgba(255, 255, 255, 0.777);
