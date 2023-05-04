@@ -128,9 +128,9 @@ img {
   padding: 0.5rem 1rem;
 
   text-decoration: none;
-  font-weight: 100;
+  font-weight: 600;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Mulish', sans-serif;
 
 
   background-color: rgba(255, 255, 255, 0.145);
@@ -169,5 +169,49 @@ img {
 }
 
 .navigation-button:hover::before {
+  transform: scaleX(1);
+}
+.back-to-top{
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+  --time: 0.3s;
+
+  border: 2px solid rgba(255, 255, 255, 0.777);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Mulish', sans-serif;
+
+
+  background-color: rgba(255, 255, 255, 0.145);
+  color: rgb(255, 255, 255);
+  transition: color var(--time) ease-in-out,
+    background-color var(--time) ease-in-out;
+}
+.back-to-top:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+}
+.back-to-top::before{
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+
+  content: "";
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--time) ease-in-out;
+  z-index: -1;
+}
+.back-to-top:hover::before {
   transform: scaleX(1);
 }
