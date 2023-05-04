@@ -117,7 +117,7 @@ img {
 }
 
 .sketches:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .navigation-button {
