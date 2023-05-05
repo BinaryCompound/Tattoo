@@ -101,5 +101,10 @@
     .Ilya-photo {
         height: 120px;
     }
+    .image-size {
+        background-size: cover;
+        width: 200%;
+        height: 100%;
+      }
    
 }
