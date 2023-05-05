@@ -1,0 +1,105 @@
+@media screen and (max-width:992px) {
+    .biography-left {
+        font-size: 20px;
+
+    }
+
+    .titel {
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .navigation-button {
+        font-size: 18px;
+    }
+
+    .back-to-top {
+        font-size: 18px;
+    }
+
+    .Ilya-photo {
+        height: 180px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .compact {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navigation-button {
+        font-size: 15px;
+
+
+    }
+
+    .back-to-top {
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:480px){
+    .biography-left {
+        font-size: 14px;
+    }
+    .compact{
+        font-size: 15px;
+    }
+    .back-to-top {
+        font-size: 13px;
+    }
+    .navigation-button {
+        font-size: 13px;
+
+
+    }
+    .Ilya-photo {
+        height: 150px;
+    }
+}
+@media screen and (max-width:480px){
+    .biography-left {
+        font-size: 14px;
+    }
+    .compact{
+        font-size: 15px;
+    }
+    .back-to-top {
+        font-size: 13px;
+    }
+    .navigation-button {
+        font-size: 13px;
+
+
+    }
+    .Ilya-photo {
+        height: 150px;
+    }
+}
+@media screen and (max-width:393px){
+    .biography-left {
+        font-size: 12px;
+    }
+    .compact{
+        font-size: 13px;
+    }
+    .back-to-top {
+        font-size: 12px;
+    }
+    .navigation-button {
+        font-size: 10px;
+
+
+    }
+    .Ilya-photo {
+        height: 120px;
+    }
+   
+}

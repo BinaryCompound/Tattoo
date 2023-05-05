@@ -72,10 +72,9 @@ img {
 .Ilya-photo {
   display: block;
   margin: 0 auto;
-  width: 202, 5px;
   height: 200px;
   border: 1px solid black;
-  border-radius: 600px;
+  border-radius: 40%;
 }
 
 .mask {

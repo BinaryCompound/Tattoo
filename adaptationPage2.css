@@ -1,0 +1,18 @@
+@media screen and (max-width:393px){
+    h1{
+        font-size: 25px;
+    }
+    .navigation-button{
+        font-size: 12px;
+    }
+    .header{
+        font-size: 11px;
+    }
+    .separator{
+        border: 1px solid white;
+    }
+    .image-size{
+        height: 100%;
+        width: 200%;
+    }
+}
