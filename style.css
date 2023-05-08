@@ -25,6 +25,10 @@ img {
 .image img {
   filter: brightness(25%)
 }
+.icon{
+  width: 50px;
+  height: 35px;
+}
 
 .header {
   font-family: 'Mulish', sans-serif;
@@ -170,6 +174,28 @@ img {
 .navigation-button:hover::before {
   transform: scaleX(1);
 }
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#scrollToTopBtn.show {
+  display: block;
+}
+
+/*
 .back-to-top{
   position: fixed;
   right: 10px;
@@ -186,7 +212,7 @@ img {
   font-family: 'Mulish', sans-serif;
 
 
-  background-color: rgba(255, 255, 255, 0.145);
+  background-color: rgba(255, 255, 255, 0.795);
   color: rgb(255, 255, 255);
   transition: color var(--time) ease-in-out,
     background-color var(--time) ease-in-out;
@@ -214,3 +240,4 @@ img {
 .back-to-top:hover::before {
   transform: scaleX(1);
 }
+*/
